@@ -12,7 +12,7 @@ namespace RandomCardPicker
             string[] drawnCards = new string[numberOfCards];
             for (int i = 0; i < numberOfCards; i++)
             {
-                drawnCards[i] = RandomValue() + RandomSuit();
+                drawnCards[i] = RandomValue() + " " + RandomSuit();
             }
 
             return drawnCards;

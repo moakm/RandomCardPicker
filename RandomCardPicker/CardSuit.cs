@@ -8,10 +8,10 @@ namespace RandomCardPicker
 {
     public enum CardSuit
     {
-        kier = 1,
-        trefl,
-        pik,
-        karo
+        Kier = 1,
+        Trefl,
+        Pik,
+        Karo
 
     }
 }
